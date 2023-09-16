@@ -31,5 +31,5 @@ public class Circulo {
 		perimetroCirc = 2 * this.getRaioCirculo() * 3.14;
 		return perimetroCirc;
 	}
-
+ 
 }
