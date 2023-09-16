@@ -30,7 +30,7 @@ public class EntradaCirc {
 				System.out.println("Circulo Inserido com Sucesso.");
 
 				break;
-
+ 
 			case 2:
 				Circulo circ = (Circulo) novoCirc;
 				System.out.println("-------------------------------------------------------------");
