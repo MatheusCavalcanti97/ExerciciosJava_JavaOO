@@ -1,4 +1,4 @@
-package lista_9_3.exerc_05;
+package lista_9_2.exerc_05;
 
 public class InputClass {
 

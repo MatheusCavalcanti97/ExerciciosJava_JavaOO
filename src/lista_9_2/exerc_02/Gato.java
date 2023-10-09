@@ -1,4 +1,4 @@
-package lista_9_3.exerc_02;
+package lista_9_2.exerc_02;
 
 public class Gato extends Animal {
 

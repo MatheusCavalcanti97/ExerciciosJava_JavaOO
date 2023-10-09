@@ -1,4 +1,4 @@
-package lista_9_3.exerc_01;
+package lista_9_2.exerc_01;
 
 public class Gerente extends Funcionario {
 

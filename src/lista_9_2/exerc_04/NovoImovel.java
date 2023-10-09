@@ -1,4 +1,4 @@
-package lista_9_3.exerc_04;
+package lista_9_2.exerc_04;
 
 public class NovoImovel extends Imovel {
 

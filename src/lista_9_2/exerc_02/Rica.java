@@ -1,6 +1,6 @@
-package lista_9_3.exerc_02;
+package lista_9_2.exerc_02;
 
-import lista_9_3.exerc_01.Pessoa;
+import lista_9_2.exerc_01.Pessoa;
 
 public class Rica extends Pessoa {
 

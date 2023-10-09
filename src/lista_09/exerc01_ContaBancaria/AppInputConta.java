@@ -30,7 +30,7 @@ public class AppInputConta {
 					+ "\n4) Mostrar o novo saldo do cliente, a partir da taxa de rendimento, daqueles que possuem conta poupança."
 					+ "\n5) Mostrar os dados de todas as contas cadastradas." + "\n0.  SAIR. ");
 			opcaoMenu = ler.nextInt();
- 
+
 			switch (opcaoMenu) {
 
 			case 0:
@@ -193,7 +193,7 @@ public class AppInputConta {
 								sacarValor = ler.nextDouble();
 
 								if (sacarValor > 0) {
-									if (contaE.getSaldoConta() > (-1 * contaE.getLimiteContaEspecial())) {
+									if (contaE.getSaldoConta() >= (-1 * contaE.getLimiteContaEspecial())) {
 
 										contaE.sacarConta(sacarValor);
 										System.out.println("\n-------------------------------------------------");
@@ -341,17 +341,14 @@ public class AppInputConta {
 										+ contaP.getTaxaDeRendimento() + "%" + "\nValor do Rendimento: R$ "
 										+ (contaP.getSaldoConta() * (contaP.taxaDeRendimento / 100.0)
 												+ "\nNovo Saldo: R$ " + contaP.renderJuros()));
-
 							}
 						}
-
 					}
 				}
 
 				else if (opcaoConta == 2) {
 
 					numeroConta = null;
-
 					System.out.println("\n-------------------------------------------------");
 					System.out.println("Informe o Número da Conta que deseja Verificar o Saldo: ");
 					numeroConta = ler.nextLine();
@@ -405,7 +402,7 @@ public class AppInputConta {
 				break;
 			}
 
-		} while (opcaoMenu != 0);
+		} while (opcaoMenu != 0 || listaDeContas.size() == 5);
 
 		ler.close();
 	}

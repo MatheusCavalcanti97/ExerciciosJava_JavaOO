@@ -1,4 +1,4 @@
-package lista_9_3.exerc_03;
+package lista_9_2.exerc_03;
 
 public class Ingresso {
 
