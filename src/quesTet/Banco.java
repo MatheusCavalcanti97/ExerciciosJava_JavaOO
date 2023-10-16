@@ -25,7 +25,7 @@ public class Banco {
 
 	public String getNomeAgencia() {
 		return nomeAgencia;
-	}
+	} 
 
 	public void setNomeAgencia(String nomeAgencia) {
 		this.nomeAgencia = nomeAgencia;
